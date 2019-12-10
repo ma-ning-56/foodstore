@@ -1,0 +1,12 @@
+{
+  "configuration":[
+    {
+      "context": ["/api"],
+      "target": "http://20.20.32.55:8089/api",
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/api": "/"
+      }
+    }
+  ]
+}
